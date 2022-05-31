@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Laptop | Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-br from-rose-400 via-fuchsia-500 to-indigo-500 overscroll-none">
+    <header class="container w-10/12 inset-x-0 mx-auto fixed z-20 mt-8 flex justify-between text-white">
+      <h1 class="font-serif tracking-wid text-xl font-black">The Laptop</h1>
+      <nav>
+        <ul class="flex">
+          <li class="mr-3">Design</li>
+          <li class="mr-3">Config</li>
+          <li class="mr-3">Choose</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container w-10/12 relative z-10 mx-auto h-screen text-center text-white flex items-center justify-center">
+        <div class="-translate-y-20">
+          <h1 class="font-serif md:text-8xl text-6xl font-black tracking-wid mb-6">Welcome</h1>
+          <p class="font-thin text-3xl tracking-wide">Discover our new super laptop,<br> made for creativity</p>
+        </div>
+      </section>
+      <section class="container w-10/12 relative z-10 mx-auto h-screen text-white flex items-center">
+        <div>
+          <h2 class="font-serif md:text-6xl text-4xl font-black tracking-wid mb-6">Stuning<br> view</h2>
+          <p class="font-thin text-3xl tracking-wide">The stunning screen displays<br> every image in impressive<br> detail and realism</p>
+        </div>
+      </section>
+      <section class="container w-10/12 relative z-10 mx-auto h-screen text-white flex items-center justify-end">
+        <div>
+          <h2 class="font-serif md:text-6xl text-4xl font-black tracking-wid mb-6">Unleash<br> your creativity</h2>
+          <p class="font-thin text-3xl tracking-wide">Thanks to artificial intelligence,<br> it will be your daily companion</p>
+          <button type="button" class="mt-6 px-4 py-2 font-semibold text-sm bg-rose-400 text-white border border-slate-300 rounded-md shadow-sm ring-2 ring-inset-2 ring-inset-fuchsia-500 ring-fuchsia-500">Discover</button>
+        </div>
+      </section>
+      <section class="container w-10/12 relative z-10 mx-auto h-screen text-white flex items-center">
+        <div>
+          <h2 class="font-serif md:text-6xl text-4xl font-black tracking-wid mb-6">Choose<br> your Laptop</h2>
+          <p class="font-thin text-3xl tracking-wide">Enjoy yourself, pick a color</p>
+          <ul class="flex mt-6">
+              <li class="color w-6 h-6 mr-3 rounded-full bg-white ring-4 ring-inset-4 ring-white/20 cursor-pointer" data-color="FFFFFF"></li>
+              <li class="color w-6 h-6 mr-3 rounded-full bg-[#2bfafa] ring-4 ring-inset-4 ring-white/20 cursor-pointer" data-color="2bfafa"></li>
+              <li class="color w-6 h-6 mr-3 rounded-full bg-violet-700 ring-4 ring-inset-4 ring-white/20 cursor-pointer" data-color="450032"></li>
+              <li class="color w-6 h-6 rounded-full bg-orange-500 ring-4 ring-inset-4 ring-white/20 cursor-pointer" data-color="df6d14"></li>
+          </ul>
+        </div>
+      </section>
+      <canvas class="webgl fixed top-0 left-0 outline-hidden"></canvas>
+    </main>
+    <footer class="container w-10/12 relative z-10 mx-auto text-center text-white py-3">
+      Quentin Merle | Made with ❤️ with three.js & tailwindcss | <a href="#"><i class="fa-brands fa-github not-italic"></i></a> <a href="https://twitter.com/_Oim" target="_blank" noreferrer noopener><i class="fa-brands fa-twitter not-italic"></i></a>
+    </footer>
+  </body>
+</html>
