@@ -7,7 +7,7 @@
 
 ## 🤙 Demo
 
-Soon on [Vercel](https://vercel.com/)
+See it [live](https://three-lp-laptop.vercel.app/)
 
 ## 💾 Setup
 

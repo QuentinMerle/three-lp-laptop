@@ -1,0 +1,14 @@
+.loading-bar
+{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    opacity: 1;
+
+    &.ended
+    {
+        opacity: 0;
+    }
+}
